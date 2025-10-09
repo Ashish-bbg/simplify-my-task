@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+html {
+  background-color: black;
+  color: #ccc;
+}
+
+textarea {
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid gray;
+}
+
+.parent {
+  /* border: 1px solid red; */
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.child > textarea {
+  margin-bottom: 1rem;
+}
