@@ -7,7 +7,7 @@ It helps in identifying repetitive entries, calculating totals, and getting quic
 
 ## 🚀 Live Demo
 
-👉 <a href="https://simplify-my-task.vercel.app/" target="\_blank">View on Vercel</a>
+👉 <a href="https://simplify-my-task.vercel.app/" target="_blank">View on Vercel</a>
 
 ---
 
