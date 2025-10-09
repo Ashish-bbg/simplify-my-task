@@ -42,16 +42,6 @@ simplify-my-task/
 
 ---
 
-## ⚙️ Deployment
-
-This is a **static frontend app**, so you can host it anywhere (e.g., **Vercel**, **GitHub Pages**, **Netlify**).
-
-```
-<a href="https://simplify-my-task.vercel.app">https://simplify-my-task.vercel.app</a>
-```
-
----
-
 ## 🧰 Technologies Used
 
 - HTML5
