@@ -7,7 +7,7 @@ It helps in identifying repetitive entries, calculating totals, and getting quic
 
 ## 🚀 Live Demo
 
-👉 [View on Vercel](https://simplify-my-task.vercel.app)
+👉 <a href="https://simplify-my-task.vercel.app/" target="\_blank">View on Vercel</a>
 
 ---
 
@@ -47,7 +47,7 @@ simplify-my-task/
 This is a **static frontend app**, so you can host it anywhere (e.g., **Vercel**, **GitHub Pages**, **Netlify**).
 
 ```
-https://simplify-my-task.vercel.app
+<a href="https://simplify-my-task.vercel.app">https://simplify-my-task.vercel.app</a>
 ```
 
 ---
@@ -78,4 +78,4 @@ This project is open-source and free to use under the [MIT License](LICENSE).
 ### 👨‍💻 Author
 
 **Ashish Singh**
-If you like this project, give it a ⭐ on [GitHub](https://github.com/your-username/simplify-my-task)!
+If you like this project, give it a ⭐ on [GitHub](https://github.com/Ashish-bbg/simplify-my-task)!
