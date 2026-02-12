@@ -109,13 +109,15 @@ function showDataToScreen(nameFreq, source) {
       
      ${
        source === "name"
-         ? `<td><button onclick="inc('${id}')">+</button></td>`
+         ? `<td class="btn"><button onclick="inc('${id}')">+</button></td>`
          : ""
      }
-      <td class="cnt" id=${"a" + id}>${count}</td>
+      <td class="cnt"><input class="input" type="text" id=${
+        "a" + id
+      } value=${count} /></td>
      ${
        source === "name"
-         ? `<td><button onclick="dec('${id}')">-</button></td>`
+         ? `<td class="btn"><button onclick="dec('${id}')">-</button></td>`
          : ""
      }
      ${source === "task" ? `<td>${Math.round(count / nameFreqLen)}</td>` : ""}
@@ -143,12 +145,13 @@ function inc(name) {
 
   const cntShow = document.querySelector(`#${"a" + name}`);
   // obj.count += 1;
-  cntShow.innerHTML = Number(cntShow.innerHTML) + 1;
+  // console.log(cntShow);
+  cntShow.value = Number(cntShow.value) + 1;
 }
 
 function dec(name) {
   const cntShow = document.querySelector(`#${"a" + name}`);
-  cntShow.innerHTML = Number(cntShow.innerHTML) - 1;
+  cntShow.value = Number(cntShow.value) - 1;
 }
 
 function shortName(name) {

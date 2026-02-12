@@ -40,3 +40,18 @@ textarea {
 .child > textarea {
   margin-bottom: 1rem;
 }
+
+.cnt {
+  width: 15%;
+}
+
+.btn {
+  width: 10%;
+}
+.input {
+  background-color: black;
+  border: none;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
